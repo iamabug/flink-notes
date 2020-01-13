@@ -43,7 +43,7 @@
    </dependency>
    ```
 
-2. 关键代码如下，完整代码参见 [Kafka2Stdout.java](./flink-pipeline/src/main/java/iamabug/Kafka2Stdout.java)。
+2. 关键代码如下，完整代码参见 [Kafka2Stdout.java](https://github.com/iamabug/flink-notes/blob/master/pipeline/flink-pipeline/src/main/java/iamabug/Kafka2Stdout.java)。
 
    ```java
    StreamExecutionEnvironment see = StreamExecutionEnvironment.getExecutionEnvironment();
