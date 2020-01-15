@@ -12,4 +12,10 @@ public class Utils {
         properties.setProperty("auto.offset.reset", "earliest");
         return properties;
     }
+
+    public static Properties buildKafkaProducerProperties() {
+        Properties properties = new Properties();
+        properties.setProperty("bootstrap.servers", "localhost:9092");
+        return properties;
+    }
 }
